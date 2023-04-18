@@ -7,7 +7,7 @@
 
 CC	=	gcc
 
-SRC	=	${wildcard *.c}
+SRC	=	main.cccc
 
 OBJ	=	$(SRC:.c=.o)
 
