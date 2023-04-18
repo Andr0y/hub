@@ -7,7 +7,7 @@
 
 CC	=	gcc
 
-SRC	=	main.c
+SRC	=    main.
 
 OBJ	=	$(SRC:.c=.o)
 
@@ -19,7 +19,7 @@ all: $(NAME)
 
 
 $(NAME):	$(OBJ)
-	$(CC) $(OBJ) -o $(NAME) $(CFLAGS)
+	$(CC) $(SRC) -o $(NAME)
 
 clean:
 	rm -f $(OBJ)
