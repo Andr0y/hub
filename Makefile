@@ -7,7 +7,7 @@
 
 CC	=	gcc
 
-SRC	=	main.cccc
+SRC	=	main.c
 
 OBJ	=	$(SRC:.c=.o)
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int man(void)
 {
     printf("Helloo\n");
     return 0;
